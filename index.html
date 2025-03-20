@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    
+    <!--=============== FONTAWESOME CND ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <title>Site Portfólio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header>
+        
+        <div class="logo">
+            <i class="ri-yuque-fill"></i>
+            <span>Larissa Garcia</span>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Início</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#tecnology">Tecnologias</a>
+                </li>
+                <li>
+                    <a href="#formation">Formação</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="/assets/cvLarissaGarcia.pdf.pdf" target="_blank" id="on">Download CV</a>
+                </li>
+            </ul>
+            <i class="ri-menu-2-line" id="toggle"></i>
+            <div class="snow"></div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <section class="main" id="home">
+        <!--==================== HOME ====================-->
+        <div class="home-content" id="container">
+            <h1>
+                Bem-vindo ao <br>meu Portfólio<br>
+            </h1>
+            <p>
+            Transformando ideias em experiências visuais únicas. Explore meu trabalho e descubra como design e criatividade podem criar algo extraordinário. 
+            </p>
+            <a href="#about" class="button">
+                Inicie essa Aventura
+            <a>
+        </div>
+
+        <div class="images">
+            <div class="image-5"></div>
+            <div class="image-4"></div>
+            <div class="image-3"></div>
+            <div class="image-2"></div>
+            <div class="image-1"></div>
+            <div class="image-0"></div>
+
+        </div>
+        <div class="snow"></div>
+
+       
+
+    </section>
+    
+    <section class="about" id="about">
+        <div class="text-content">
+            <h2>Sobre mim</h2>
+            <p>Sou um Web Designer apaixonado por criar experiências visuais envolventes e únicas. Tenho um olhar artístico que me faz enxergar a programação como uma ferramenta para transformar ideias em realidade. Cada projeto é uma nova oportunidade de inovar e proporcionar experiências marcantes.</p>
+            <div class="social-icons">
+                <a href="https://wa.me/19993683813" target="_blank" class="icon"><i class="ri-whatsapp-fill"></i></i></a>
+                <a href="https://www.linkedin.com/in/eularissagarcia/"  target="_blank" class="icon"><i class="ri-github-fill"></i></a>
+                <a href="https://github.com/EuLarissaGarcia"  target="_blank" class="icon"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+            <div class="button">
+                <a href="/assets/cvLarissaGarcia.pdf.pdf" target="_blank">Download Cv <i class="ri-file-text-fill"></i></a>
+                
+            </div>
+        </div>
+        <div class="image-6">
+            <img src="/assets/Larissa.svg" alt="">
+        </div>
+        
+    </section>
+    
+    <section class="tecnology" id="tecnology">
+        <h2 class="skills-title">Tecnologias</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="/assets/Icons/figma.png" alt="Figma">
+                <p>Figma</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/canva.png" alt="canva">
+                <p>Canva</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/office.png" alt="office">
+                <p>Pacote Office</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/html.png" alt="html">
+                <p>Html</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/css.png" alt="css">
+                <p>CSS</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/javascript.png" alt="Javascript">
+                <p>Javascript</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/mysql.png" alt="MySql">
+                <p>MySql</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/python.png" alt="Python">
+                <p>Python</p>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/Icons/java.png" alt="java">
+                <p>java</p>
+            </div>
+            <div class="skill-card" id="apagar">
+                <img src="/assets/Icons/c.png" alt="c">
+                <p>C</p>
+            </div>
+        </div>
+    </section>
+    <section class="formation" id="formation">
+        <h2>Formação</h2>
+        <div class="description">
+            <p>   Minha Jornada pessoal   </p>
+        </div>
+        
+
+        <div class="buttons">
+            <button class="button active" onclick="showSection('education')"><i class="ri-graduation-cap-fill"></i>  Formação</button>
+            <button class="button" onclick="showSection('work')"><i class="ri-suitcase-fill"></i>  Trabalhos</button>
+        </div>
+
+        <div id="education" class="content active">
+            <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="ri-graduation-cap-fill"></i>
+                </div>
+                <div class="timeline-content left">
+                    <h3>Etec Trajano Camargo</h3>
+                    <span><i class="ri-calendar-line"></i>  2018 - 2020</span>
+                    <p>Ensino médio técnico integrado, realizando o curso Eventos</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="ri-graduation-cap-fill"></i>
+                </div>
+                <div class="timeline-content right">
+                    <h3>Fatec Americana </h3>
+                    <span><i class="ri-calendar-line"></i>  2023 - 2025</span>
+                    <p>Graduação em Análise e Desenvolvimento de Sistema, com formação prevista para Dezembro 2025</p>
+                </div>
+            </div> 
+            </div>
+        </div>
+
+        <div id="work" class="content">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="ri-suitcase-fill"></i>
+                    </div>
+                    <div class="timeline-content left">
+                        <h3> 1° Trabalho</h3>
+                        <span><i class="ri-calendar-line"></i>  2022 - 2023</span>
+                        <p>Atendente em Loja física e Suporte online em plataformas de Marketplace</p>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="ri-suitcase-fill"></i>
+                    </div>
+                    <div class="timeline-content right">
+                        <h3> Freelancer </h3>
+                        <span><i class="ri-calendar-line"></i>  2025 - Atual </span>
+                        <p>Criação de Conteúdo para mídias sociais</p>
+                    </div>
+                </div> 
+                </div>
+        </div>
+    </section>
+
+      
+<section class="projects" id="projects">
+    <h2 class="section-title">Meus Projetos</h2>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="card active">
+                <img src="/assets/projects/project1.png" alt="Projeto 1">
+                <div class="text-content">
+                    <h3>1 - EstevaTour</h3>
+                    <p>O EstevaTour é um protótipo de fidelidade para o setor de turismo, desenvolvido com foco em uma interface intuitiva e navegação organizada. Ele inclui funcionalidades como exibição de pacotes turísticos e contato direto via WhatsApp. Fui responsável pelo design, garantindo que atendesse às necessidades do público e fosse visualmente atrativo.</p>
+                    <div class="tags">
+                        <span class="tag">Design Mobile</span><span class="tag">Prótotipo de fidelidade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/projects/project2.png" alt="Projeto 2">
+                <div class="text-content">
+                    <h3>2 - Social Mídias (SM)</h3>
+                    <p> O SM é um protótipo de site desenvolvido para oferecer serviços de gestão de mídias sociais a profissionais e empresas. Ele apresenta de forma clara as funcionalidades disponíveis, como agendamento de posts, sugestões de conteúdo personalizadas e acesso exclusivo por login. O design do site, pelo qual fui responsável, foi pensado para atrair clientes, demonstrar a eficiência do serviço e transmitir confiança.</p>
+                    <div class="tags">
+                        <span class="tag">Design Site</span><span class="tag">Prótotipo de fidelidade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/projects/project3.png" alt="Projeto 3">
+                <div class="text-content">
+                    <h3>3 - Posts suplementos</h3>
+                    <p>Criei posts criativos para um projeto freelance na área de suplementos alimentares, com base nos produtos Bonifica que eram comercializados pela pessoa que me contratou. Os designs destacaram os benefícios dos produtos, seguindo práticas visuais para identidade, legibilidade e engajamento do público-alvo.</p>
+                    <div class="tags">
+                        <span class="tag">Design</span><span class="tag">Canva</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/projects/project4.png" alt="Projeto 4">
+                <div class="text-content">
+                    <h3>4 - Sistema de Venda (SV)</h3>
+                    <p>O SV é um protótipo de aplicativo para frente de loja, projetado para simplificar vendas e gestão de pagamentos. Com uma interface intuitiva, permite consultas de estoque, emissão de relatórios e configuração de métodos de pagamento, otimizando a navegação e agilizando o trabalho dos operadores.</p>
+                    <div class="tags">
+                        <span class="tag">Design Aplicativo </span><span class="tag"> Prótotipo de fidelidade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/projects/project5.png" alt="Projeto 5">
+                <div class="text-content">
+                    <h3>5 - Site sobre Navegadores</h3>
+                    <p>Este projeto resultou em um site interativo que explora sistemas operacionais e navegadores, apresentando temas como funções, comparações entre navegadores populares, alternativas e dicas para escolha ideal. Ele inclui recursos como cadastro de usuários, ferramenta "Fale Conosco" e consultor de CEP integrado, sendo responsivo, garantindo uma experiência agradavél a qualquer dispositivo.</p>
+                    <div class="tags">
+                        <span class="tag">Design Site</span><span class="tag">C#</span><span class="tag">Banco de Dados</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/assets/projects/project6.png" alt="Projeto 6">
+                <div class="text-content">
+                    <h3>6 - Posts setor Pet</h3>
+                    <p>Elaborei uma série de posts criativos para um projeto freelance no setor pet, com uma parte focada em marketplaces e outra em mídias sociais. Os posts voltados para marketplaces foram desenvolvidos para atrair compradores e aprimorar a apresentação dos produtos, sendo também adaptados para uso em redes sociais, atendendo de forma eficiente às duas necessidades do cliente.</p>
+                    <div class="tags">
+                        <span class="tag">Design</span><span class="tag">Canva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+            <span class="dot" onclick="changeSlide(3)"></span>
+            <span class="dot" onclick="changeSlide(4)"></span>
+            <span class="dot" onclick="changeSlide(5)"></span>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <h2 class="logo">Larissa Garcia</h2>
+        <p class="subtitle">Front-End Developer</p>
+    </div>
+    <nav class="footer-nav">
+        <a href="#">Início</a>
+        <a href="#tecnology">Tecnologias</a>
+        <a href="/assets/cvLarissaGarcia.pdf.pdf" target="_blank">Download CV</a>
+    </nav>
+    <div class="social-icons">
+        <a href="https://wa.me/19993683813" target="_blank" class="icon"><i class="ri-whatsapp-fill"></i></i></a>
+        <a href="https://www.linkedin.com/in/eularissagarcia/"  target="_blank" class="icon"><i class="ri-github-fill"></i></a>
+        <a href="https://github.com/EuLarissaGarcia"  target="_blank" class="icon"><i class="ri-linkedin-box-fill"></i></a>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+
+    <!--=============== GSAP ===============-->
+    <script src="./gsap.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./snow.js"></script>
+    <script src="./movimento.js"></script>
+</body>
+
+</html>
