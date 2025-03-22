@@ -1,1 +1,72 @@
+# 📌 Portfólio - Larissa Garcia
+
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar meus trabalhos na área de design e desenvolvimento front-end. Explore as seções para conhecer mais sobre mim, minhas habilidades e projetos desenvolvidos.
+
+## 🚀 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Figma
+- Canva
+- MySQL
+- Python
+- Java
+- C
+
+## 📂 Estrutura do Projeto
+
+```
+📂 MeuPortfolio
+├── 📁 assets
+│   ├── 📁 img
+│   ├── 📁 Icons
+│   ├── 📁 projects
+│   ├── favicon.png
+│   ├── cvLarissaGarcia.pdf
+├── 📄 index.html
+├── 📄 style.css
+├── 📄 script.js
+├── 📄 movimento.js
+├── 📄 snow.js
+├── 📄 gsap.min.js
+└── 📄 README.md
+```
+
+## 🎨 Sobre o Projeto
+
+O portfólio conta com as seguintes seções:
+- **Início**: Apresentação do portfólio.
+- **Sobre mim**: Breve descrição sobre minha trajetória profissional e acadêmica.
+- **Tecnologias**: Ferramentas e linguagens que domino.
+- **Formação**: Minha formação acadêmica e experiência profissional.
+- **Projetos**: Exemplos de trabalhos desenvolvidos.
+- **Contato**: Links para redes sociais e currículo para download.
+
+## 💡 Projetos Destacados
+
+1. **EstevaTour** - Protótipo para o setor de turismo com interface intuitiva.
+2. **Social Mídias (SM)** - Protótipo de site para gestão de mídias sociais.
+3. **Posts Suplementos** - Criação de conteúdo para um projeto freelance.
+4. **Sistema de Venda (SV)** - Protótipo de aplicativo para frente de loja.
+5. **Site sobre Navegadores** - Site informativo com banco de dados integrado.
+6. **Posts Setor Pet** - Criação de posts para marketplaces e redes sociais.
+
+## 📎 Como Visualizar o Projeto
+
+1. Faça o clone do repositório:
+   ```bash
+   git clone https://github.com/EuLarissaGarcia/portfolio.git
+   ```
+2. Abra o arquivo `index.html` em um navegador.
+
+## 📌 Contato
+
+📧 E-mail: [Seu e-mail aqui]
+📱 WhatsApp: [Seu número aqui]
+🔗 [LinkedIn](https://www.linkedin.com/in/eularissagarcia/) | [GitHub](https://github.com/EuLarissaGarcia)
+
+---
+
+🔹 **Desenvolvido por Larissa Garcia** ✨
 
