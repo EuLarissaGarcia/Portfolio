@@ -1,8 +1,8 @@
-# 📌 Portfólio - Larissa Garcia
+#📌 Portfólio - Larissa Garcia
 
 Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar meus trabalhos na área de design e desenvolvimento front-end. Explore as seções para conhecer mais sobre mim, minhas habilidades e projetos desenvolvidos.
 
-## 🚀 Tecnologias Utilizadas
+##🚀 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -14,7 +14,7 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar meus 
 - Java
 - C
 
-## 📂 Estrutura do Projeto
+##📂 Estrutura do Projeto
 
 ```
 📂 MeuPortfolio
@@ -43,7 +43,7 @@ O portfólio conta com as seguintes seções:
 - **Projetos**: Exemplos de trabalhos desenvolvidos.
 - **Contato**: Links para redes sociais e currículo para download.
 
-## 💡 Projetos Destacados
+##💡 Projetos Destacados
 
 1. **EstevaTour** - Protótipo para o setor de turismo com interface intuitiva.
 2. **Social Mídias (SM)** - Protótipo de site para gestão de mídias sociais.
@@ -52,7 +52,7 @@ O portfólio conta com as seguintes seções:
 5. **Site sobre Navegadores** - Site informativo com banco de dados integrado.
 6. **Posts Setor Pet** - Criação de posts para marketplaces e redes sociais.
 
-## 📎 Como Visualizar o Projeto
+## Como Visualizar o Projeto
 
 1. Faça o clone do repositório:
    ```bash
@@ -60,7 +60,7 @@ O portfólio conta com as seguintes seções:
    ```
 2. Abra o arquivo `index.html` em um navegador.
 
-## 📌 Contato
+##📌 Contato
 
 📧 E-mail: [Seu e-mail aqui]
 📱 WhatsApp: [Seu número aqui]
