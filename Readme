@@ -1,22 +1,32 @@
-#📌 Portfólio - Larissa Garcia
 
-Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar meus trabalhos na área de design e desenvolvimento front-end. Explore as seções para conhecer mais sobre mim, minhas habilidades e projetos desenvolvidos.
+<body>
+    <header>
+        <h1>📌 Portfólio - Larissa Garcia</h1>
+    </header>
 
-##🚀 Tecnologias Utilizadas
+    <section>
+        <h2>Bem-vindo ao meu portfólio!</h2>
+        <p>Este projeto foi desenvolvido para apresentar meus trabalhos na área de design e desenvolvimento front-end. Explore as seções para conhecer mais sobre mim, minhas habilidades e projetos desenvolvidos.</p>
+    </section>
 
-- HTML5
-- CSS3
-- JavaScript
-- Figma
-- Canva
-- MySQL
-- Python
-- Java
-- C
+    <section>
+        <h2>🚀 Tecnologias Utilizadas</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Figma</li>
+            <li>Canva</li>
+            <li>MySQL</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+        </ul>
+    </section>
 
-##📂 Estrutura do Projeto
-
-```
+    <section>
+        <h2>📂 Estrutura do Projeto</h2>
+        <pre>
 📂 MeuPortfolio
 ├── 📁 assets
 │   ├── 📁 img
@@ -31,42 +41,49 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para apresentar meus 
 ├── 📄 snow.js
 ├── 📄 gsap.min.js
 └── 📄 README.md
-```
+        </pre>
+    </section>
 
-## 🎨 Sobre o Projeto
+    <section>
+        <h2>🎨 Sobre o Projeto</h2>
+        <p>O portfólio conta com as seguintes seções:</p>
+        <ul>
+            <li><strong>Início:</strong> Apresentação do portfólio.</li>
+            <li><strong>Sobre mim:</strong> Breve descrição sobre minha trajetória profissional e acadêmica.</li>
+            <li><strong>Tecnologias:</strong> Ferramentas e linguagens que domino.</li>
+            <li><strong>Formação:</strong> Minha formação acadêmica e experiência profissional.</li>
+            <li><strong>Projetos:</strong> Exemplos de trabalhos desenvolvidos.</li>
+            <li><strong>Contato:</strong> Links para redes sociais e currículo para download.</li>
+        </ul>
+    </section>
 
-O portfólio conta com as seguintes seções:
-- **Início**: Apresentação do portfólio.
-- **Sobre mim**: Breve descrição sobre minha trajetória profissional e acadêmica.
-- **Tecnologias**: Ferramentas e linguagens que domino.
-- **Formação**: Minha formação acadêmica e experiência profissional.
-- **Projetos**: Exemplos de trabalhos desenvolvidos.
-- **Contato**: Links para redes sociais e currículo para download.
+    <section>
+        <h2>💡 Projetos Destacados</h2>
+        <ol>
+            <li><strong>EstevaTour:</strong> Protótipo para o setor de turismo com interface intuitiva.</li>
+            <li><strong>Social Mídias (SM):</strong> Protótipo de site para gestão de mídias sociais.</li>
+            <li><strong>Posts Suplementos:</strong> Criação de conteúdo para um projeto freelance.</li>
+            <li><strong>Sistema de Venda (SV):</strong> Protótipo de aplicativo para frente de loja.</li>
+            <li><strong>Site sobre Navegadores:</strong> Site informativo com banco de dados integrado.</li>
+            <li><strong>Posts Setor Pet:</strong> Criação de posts para marketplaces e redes sociais.</li>
+        </ol>
+    </section>
 
-##💡 Projetos Destacados
+    <section>
+        <h2>📎 Como Visualizar o Projeto</h2>
+        <ol>
+            <li>Faça o clone do repositório:</li>
+            <pre><code>git clone https://github.com/EuLarissaGarcia/portfolio.git</code></pre>
+            <li>Abra o arquivo <code>index.html</code> em um navegador.</li>
+        </ol>
+    </section>
 
-1. **EstevaTour** - Protótipo para o setor de turismo com interface intuitiva.
-2. **Social Mídias (SM)** - Protótipo de site para gestão de mídias sociais.
-3. **Posts Suplementos** - Criação de conteúdo para um projeto freelance.
-4. **Sistema de Venda (SV)** - Protótipo de aplicativo para frente de loja.
-5. **Site sobre Navegadores** - Site informativo com banco de dados integrado.
-6. **Posts Setor Pet** - Criação de posts para marketplaces e redes sociais.
-
-## Como Visualizar o Projeto
-
-1. Faça o clone do repositório:
-   ```bash
-   git clone https://github.com/EuLarissaGarcia/portfolio.git
-   ```
-2. Abra o arquivo `index.html` em um navegador.
-
-##📌 Contato
-
-📧 E-mail: [Seu e-mail aqui]
-📱 WhatsApp: [Seu número aqui]
-🔗 [LinkedIn](https://www.linkedin.com/in/eularissagarcia/) | [GitHub](https://github.com/EuLarissaGarcia)
-
----
-
-🔹 **Desenvolvido por Larissa Garcia** ✨
-
+    <footer>
+        <h2>📌 Contato</h2>
+        <p>📧 E-mail: [Seu e-mail aqui]</p>
+        <p>📱 WhatsApp: [Seu número aqui]</p>
+        <p>🔗 <a href="https://www.linkedin.com/in/eularissagarcia/" target="_blank">LinkedIn</a> | <a href="https://github.com/EuLarissaGarcia" target="_blank">GitHub</a></p>
+        <p>🔹 <em>Desenvolvido por Larissa Garcia ✨</em></p>
+    </footer>
+</body>
+</html>
