@@ -364,6 +364,18 @@
     });
 </script>
 
+<style>
+    [id^="projeto"] {
+      border: 3px solid red;
+      background-color: yellow !important;
+    }
+    [id^="projeto"]::after {
+      content: "IMAGEM NÃO CARREGADA: " attr(id);
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+
     <script src="dot.js"></script>
 
     <!--=============== GSAP ===============-->
