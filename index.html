@@ -350,7 +350,19 @@
     </div>
 </footer>
 
-
+<script>
+    // Debug: Verifica se scripts estão carregando
+    console.log('Scripts iniciando...');
+    
+    // Força recarregamento de imagens
+    document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('[style*="background-image"]');
+        images.forEach(img => {
+            const bg = window.getComputedStyle(img).backgroundImage;
+            console.log('Imagem encontrada:', bg);
+        });
+    });
+</script>
 
     <script src="dot.js"></script>
 

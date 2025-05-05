@@ -64,16 +64,14 @@ Este repositório contém o código-fonte de um site de portfólio pessoal, dese
 | `.projects`        | Seção dos projetos realizados com carrossel de cards |
 | `.footer`          | Rodapé do site com informações de contato e links |
 
-
+git status
 ## Como Visualizar
+[Link de acesso ao Portfolio](https://eularissagarcia.github.io/Portfolio/)
 
-Clone este repositório:
+ou
 
-```sh
-git clone https://eularissagarcia.github.io/Potfolio/
-```
+Clone este repositório e Abra o arquivo `index.html` em qualquer navegador de internet.
 
-Abra o arquivo `index.html` em qualquer navegador de internet.
 
 ## Contato
 - **GitHub:** [@EuLarissaGarcia](https://github.com/EuLarissaGarcia)

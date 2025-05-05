@@ -783,40 +783,40 @@ section{
 } 
 
 #projeto1 {
-    background-image: url('assets/projects/project1.png');
+    background-image: url('.assets/projects/project1.png');
     width: 340px;
     height: 340px; 
     clip-path: inset(0.35% 0 0 0); 
 }
 
 #projeto2 {
-    background-image: url('assets/projects/project2.png');
+    background-image: url('.assets/projects/project2.png');
     width: 340px;
     height: 340px; 
 }
 
 #projeto3 {
-    background-image: url('assets/projects/project3.png');
+    background-image: url('.assets/projects/project3.png');
     width: 340px;
     height: 340px; 
 
 }
 
 #projeto4 {
-    background-image: url('assets/projects/project4.png');
+    background-image: url('.assets/projects/project4.png');
     width: 340px;
     height: 340px; 
 
 }
 
 #projeto5 {
-    background-image: url('assets/projects/project5.png');
+    background-image: url('.assets/projects/project5.png');
     width: 340px;
     height: 340px; 
 }
 
 #projeto6 {
-    background-image: url('assets/projects/project6.png');
+    background-image: url('.assets/projects/project6.png');
     width: 340px;
     height: 340px; 
 }
