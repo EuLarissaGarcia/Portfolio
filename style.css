@@ -496,7 +496,7 @@ section{
 .tecnology {
     min-height: 50vh; 
     padding: 50px 5%;
-    background-color: var(--third-color);
+    background-color:  #d1bff6;
     color: var(--third-color);
     text-align: center;
 }
@@ -505,7 +505,7 @@ section{
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: var(--white);
+    color: var(--third-color);
 }
 
 .skills-container {
@@ -726,7 +726,6 @@ section{
     color: var(--white);
     margin-bottom: 5%;
     justify-content: flex-start;
-
 }
 
 .carousel-container {
@@ -760,8 +759,7 @@ section{
     transition: opacity 0.5s ease-in-out;
     color: var(--white);
     display: flex;
-    align-items: flex-;
-  
+    align-items: flex-start;
 }
 
 .card.active {
@@ -771,54 +769,11 @@ section{
     z-index: 1;
 }
 
-
-#projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6 {
-    background-size: cover; /* A imagem ocupará toda a div */
-    background-position: center; /* A imagem será centralizada */
-    width: 50%;
-    height: auto;    
+.project-image {
+    width: 340px;
+    height: 340px;
     border-radius: 8px;
     object-fit: cover;
-    
-} 
-
-#projeto1 {
-    background-image: url('.assets/projects/project1.png');
-    width: 340px;
-    height: 340px; 
-    clip-path: inset(0.35% 0 0 0); 
-}
-
-#projeto2 {
-    background-image: url('.assets/projects/project2.png');
-    width: 340px;
-    height: 340px; 
-}
-
-#projeto3 {
-    background-image: url('.assets/projects/project3.png');
-    width: 340px;
-    height: 340px; 
-
-}
-
-#projeto4 {
-    background-image: url('.assets/projects/project4.png');
-    width: 340px;
-    height: 340px; 
-
-}
-
-#projeto5 {
-    background-image: url('.assets/projects/project5.png');
-    width: 340px;
-    height: 340px; 
-}
-
-#projeto6 {
-    background-image: url('.assets/projects/project6.png');
-    width: 340px;
-    height: 340px; 
 }
 
 .text-content {
@@ -883,7 +838,6 @@ section{
 .dot.active {
     background-color: #8758eb;
 }
-
 
 /* -==================== FOOTER ====================--> */
 
@@ -1382,9 +1336,8 @@ social-icons {
        display: none;
     }
 
-    /* -==================== PROJECTS ====================--> */
+/* -==================== PROJECTS ====================--> */
     
-
 .carousel {
     flex-direction: column;
     align-items: center;
@@ -1399,9 +1352,10 @@ social-icons {
     max-width: 500px;
 }
 
-.card img {
-    width: 80%; 
+.project-image {
+    width: 80%;
     max-width: 400px;
+    height: auto;
 }
 
 .text-content {
@@ -1414,7 +1368,6 @@ social-icons {
     font-size: 1.8rem;
     text-align: center;
 }
-
 
 .card h3 {
     font-size: 18px;
@@ -1435,8 +1388,9 @@ social-icons {
 }
 
 .projects {
-     min-height: 100vh;
+    min-height: 100vh;
 }
+
 .footer {
     flex-direction: column;
     text-align: center;
