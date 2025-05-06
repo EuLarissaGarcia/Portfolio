@@ -24,7 +24,6 @@ Este repositório contém o código-fonte de um site de portfólio pessoal, dese
 ```
 /
 ├── assets/         # Pasta com todas as Imagens do projeto
-   ├── projects/    # Subpasta com apenas imagem dos projetos
    ├── icons/       # Subpasta com apenas imagem das logos das tecnologias
 ├── index.html      # Página principal do site
 ├── style.css       # Estilos CSS
