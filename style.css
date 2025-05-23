@@ -10,6 +10,7 @@
     --fourth-color: #413661;
     --five-color:#2a0e4e;
     --color-text-secondary:#9b9bce;
+    --light-violet: #d1bff6;
     --font-family:"Poppins", sans-serif;
 
 }
@@ -127,14 +128,24 @@ section{
 }
 
 /* -==================== MAIN ====================--> */
+.home-content{
+    max-width: 90%; 
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;   
+}
+
 .main {
-    
     color: var(--primary-color);
     text-align: center;
     width: 700px;
     margin: 0 auto;
     min-width: 400px;
     background: transparent;
+
 }
 
 
@@ -143,17 +154,16 @@ section{
     color: var(--white);
     font-size: 2.5rem;
     font-weight: 800;
-    margin-top: -10px;
     line-height: 45px;
     -webkit-text-stroke: 2px #1c1333a0;
+    margin-bottom: 5%;
 }
 
 .main p {
     font-size: 1.1rem;
     font-weight: 400;
-    margin: 20px 0 40px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 
@@ -168,6 +178,8 @@ section{
     font-weight: 500;
     cursor: pointer;
     border-radius: 2.5rem;
+    max-width: 70%;
+    margin-left: 15%;
 }
 
 .main a.button:hover {
@@ -267,7 +279,7 @@ section{
     left: 0;
     width: 50px;
     height: 50px;
-    background-image: url(/assets/snow.png);
+    background-image: url('./assets/snow.png');
     background-size: cover;
     animation: animationSnow 4s ease-in-out infinite;
     animation-duration: 5;
@@ -338,12 +350,49 @@ section{
     height: auto;
 }
 
+.about-stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+    line-height: 1.1;
+    width: 90%;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--light-violet);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
 /* ==================== REDES SOCIAIS  ==================== */
 .social-section {
     padding: 20px 0;
     background: var(--secondary-color);
     min-height: 40vh;
     position: relative;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
 }
 
 .section-border {
@@ -363,22 +412,13 @@ section{
     position: relative;
 }
 
-.section-title {
-    font-size: 2.5rem;
-    color: #1C1333;
-    font-weight: 600;
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-}
-
 .section-title::after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
+    width: 200px;
     height: 3px;
     background: linear-gradient(90deg, #AAAAD1, #b7b4d6);
     border-radius: 3px;
@@ -562,7 +602,10 @@ section{
 .skill-card:nth-child(8) { background-image: url('./assets/Icons/python.png'); }
 .skill-card:nth-child(9) { background-image: url('./assets/Icons/java.png'); }
 .skill-card:nth-child(10) { background-image: url('./assets/Icons/c.png'); }
-
+.skill-card:nth-child(11) { background-image: url('./assets/Icons/visual_studio_code.png'); }
+.skill-card:nth-child(12) { background-image: url('./assets/Icons/visual_studio.png'); }
+.skill-card:nth-child(13) { background-image: url('./assets/Icons/c_sharp.png'); }
+.skill-card:nth-child(14) { background-image: url('./assets/Icons/api.png'); }
 
 /* -==================== FORMATION ====================--> */
 
@@ -594,7 +637,7 @@ section{
 }
 
 .description p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     top: 3%;
     margin-bottom: 1rem;
     text-align: center;
@@ -724,8 +767,9 @@ section{
 .section-title {
     font-size: 2rem;
     color: var(--white);
-    margin-bottom: 5%;
+    ;
     justify-content: flex-start;
+    max-width: 60%;
 }
 
 .carousel-container {
@@ -734,6 +778,7 @@ section{
     position: relative;
     width: 100%;
     max-width: 850px;
+    margin-top: 5%;
 }
 
 .carousel {
@@ -989,6 +1034,11 @@ social-icons {
         font-weight: 600;
     }
 
+    .logo{
+        font-size: 1rem;
+
+    }
+
      /* -==================== MAIN ====================--> */
 
     .main h1{
@@ -1095,13 +1145,26 @@ social-icons {
 
 
     .description p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .section-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+
+    .carousel-container {
+    margin-top: 8%;
     }
 
 }
 
 
 @media (max-width: 720px) {
+
+    header{
+        height: 100px;
+    }
 
     header nav .menu{
         flex-direction: column;
@@ -1160,11 +1223,12 @@ social-icons {
      /* -==================== MAIN ====================--> */
 
     .main{
-        width: 300px;
+        width: 400px;
     }
 
     .main h1{
-        margin-top: 0px;
+        margin-right:10%;
+        margin-bottom: 2%;
         font-size:2.2rem;
         font-weight: 800;
     }
@@ -1172,10 +1236,13 @@ social-icons {
     .main p{
         font-size: 1rem;
         font-weight: 500;
-        margin: 20px 50px 40px;
-        width: 75%;
+        margin: 18px 20px 50px 5px;
+        width: 85%;
     }
-
+    
+    .main a.button {
+    margin-left: 10%;
+    }
 
     .main .images .image-4{
         background-position: calc(50% - 50px) calc(50% + 40px);
@@ -1190,7 +1257,7 @@ social-icons {
     .about {
         flex-direction: column;
         text-align: center;
-        margin-top:-195px;
+        margin-top:-155px;
     }
 
     .about .text-content {
@@ -1217,9 +1284,19 @@ social-icons {
     
 
     .about h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-top: 5%;
     }
+
+    .about img{
+        max-width: 300px;
+    }
+
+    .about-stats {
+    gap: 0rem;
+    }
+
+
 
 
  /* -==================== SOCIAL MIDIAS ====================--> */
@@ -1234,14 +1311,18 @@ social-icons {
     }
 
     .section-title {
-        font-size: 2rem;
-         line-height: 1.0;
+        font-size: 1.50rem;
+        line-height: 1.0;
+        text-align: center;
+        max-width: 100%;
     }
 
     .section-subtitle {
         font-size: 1rem;
+        line-height: 1.3;
+        margin-top: 5%;
         margin-bottom: 30px;
-        max-width: 90%;
+        max-width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1284,6 +1365,10 @@ social-icons {
         transform: scale(0.9); 
     }
 
+    .skills-title {
+    font-size: 1.8rem;
+    }
+
     .skill-card p {
         font-size: 0.9rem;
         margin-bottom: 10px;
@@ -1304,7 +1389,7 @@ social-icons {
 
 
     .formation h2 {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
     
     .timeline-item {
@@ -1362,11 +1447,6 @@ social-icons {
     width: 100%;
     padding-left: 0;
     margin-left: 0;
-}
-
-.section-title {
-    font-size: 1.8rem;
-    text-align: center;
 }
 
 .card h3 {

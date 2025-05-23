@@ -1,79 +1,92 @@
-# Site Portfólio - Larissa Garcia
+# Buscador de Endereço por CEP  
 
-## Sobre o Projeto
+Este repositório contém o código-fonte do arquivo viacep.html, utilizado como exemplo no curso de extensão "Trabalhando com APIs C# e JavaScript" para demonstrar o consumo da API do ViaCEP, uma API pública para buscar informações de endereços a partir de um CEP.
 
-Este repositório contém o código-fonte de um site de portfólio pessoal, desenvolvido para apresentar projetos, habilidades e experiência profissional de forma interativa e moderna. O design foi pensado para proporcionar uma experiência de navegação fluida e responsiva.
+![preview profile.](https://imgur.com/WoxgXSn.png)
 
-## Demonstração
 
-![preview profile.](https://imgur.com/0fHwtwa.png)
+### Funcionalidades  
+- Validação automática de formato de CEP  
+- Preenchimento automático de dados de endereço  
+- Design responsivo e acessível  
+- Feedback visual claro para usuários  
+- Transições suaves e efeitos hover  
 
-## Tecnologias Utilizadas
-```
-- HTML5
-- CSS3
-- JavaScript
-- Remix Icons
-- FontAwesome
-- Google Fonts
-- GSAP 3.12.2
-```
 
-## Estrutura do Projeto
 
-```
-/
-├── assets/         # Pasta com todas as Imagens do projeto
-   ├── icons/       # Subpasta com apenas imagem das logos das tecnologias
-├── index.html      # Página principal do site
-├── style.css       # Estilos CSS
-├── movimento.js    # Lógica e interação do site
-├── snow.js         # Efeito de Neve
-├── gsap.min.js     # Biblioteca de animação GSAP
-├── dot.js          # Navegação entre slides dos projetos 
-└── README.md       # Documentação do repositório
+---
+
+##  Paleta de Cores
+
+| Variável            | Código HEX   | Uso Principal                     |
+|---------------------|--------------|-----------------------------------|
+| `--primary-color`   | `#457687`    | Fundo do container principal     |
+| `--accent-color`    | `#FFC801`    | Cabeçalho e elementos de destaque|
+| `--dark-text`       | `#1B2E35`    | Textos principais                |
+| `--light-text`      | `#FFFFFF`    | Textos em fundos escuros         |
+| `--background`      | `#FFFFFF`    | Cor de fundo da página           |
+
+```sh
+![preview profile.](https://imgur.com/4ea3rye.png)
 ```
 
-## Funcionalidades
 
-- Layout responsivo – O site se adapta a diferentes telas.
-- Customização da barra de rolagem – Com ::-webkit-scrollbar.
-- Efeito de hover no menu – Mudança de cor e sombras ao passar o mouse.
-- Uso do GSPA para adicionar movimento nas imagens da home
-- Animação de neve para um visual dinâmico – Criadas com @keyframes.
-- Seção de habilidades e tecnologias
-- Link para download do Currículo (CV)
-- Links para redes sociais
-- Botão dinâmico para alterar experiência profissional e acadêmica 
-- Efeito carrosel dos projetos 
+---
+###  Tabela de Classes CSS  
 
+| Classe               | Função                                                                |  
+|----------------------|----------------------------------------------------------------------|  
+| `.container`         | Container principal do formulário com estilo de fundo                |  
+| `.header`            | Cabeçalho com título em destaque                                     |  
+| `.input-group`       | Grupo de elementos de entrada (label + input)                        |  
+| `.image-container`   | Container da ilustração com efeitos de hover                         |  
+| `.tittle`            | Container do título e imagem lateral                                |  
+| `.form-container`    | Área interna de padding para o formulário                           |  
 
-## Div e suas funções
+---
+###  Como Usar
 
-| Nome da Div        | Função da Div                                   |
-| ------------------ |:-----------------------------------------------:|
-| `.logo`            | Exibe o logo do portfólio com o nome "Larissa Garcia" |
-| `.menu`            | Contém o menu de navegação do site              |
-| `.snow`            | Cria o efeito visual de neve no fundo da página |
-| `.home-content`    | Seção inicial com a introdução e o botão "Inicie essa Aventura" |
-| `.images`          | Contém as imagens da home que se movem de fundo |
-| `.about`           | Seção sobre mim, incluindo uma descrição e links para redes sociais |
-| `.tecnology`       | Seção de habilidades tecnológicas com cards de tecnologia |
-| `.formation`       | Seção que exibe a formação acadêmica e experiências de trabalho |
-| `.projects`        | Seção dos projetos realizados com carrossel de cards |
-| `.footer`          | Rodapé do site com informações de contato e links |
+1. **Digite o CEP**  
+   Insira um número de 8 dígitos no campo indicado  
 
-git status
-## Como Visualizar
-[Link de acesso ao Portfolio](https://eularissagarcia.github.io/Portfolio/)
+2. **Ative a busca**  
+   - Clique fora do campo  
+   - OU pressione ` Tab `  
 
-ou
-
-Clone este repositório e Abra o arquivo `index.html` em qualquer navegador de internet.
+3. **Resultado automático**  
+   Os campos serão preenchidos instantaneamente:  
+   ```plaintext
+   Logradouro: Rua 
+   Bairro: Centro  
+   Cidade: São Paulo  
+   Estado: SP
 
 
+---
+### API Utilizada  
+
+**ViaCEP** - Serviço gratuito para consulta de CEPs brasileiros  
+
+| Característica      | Detalhe                                                             |  
+|---------------------|---------------------------------------------------------------------|  
+| Endpoint            | `https://viacep.com.br/ws/{cep}/json/`                             |  
+| Método              | GET                                                                |  
+| Parâmetro           | CEP (8 dígitos)                                                    |  
+| Resposta            | JSON com dados de endereço                                         |  
+| Documentação        | [viacep.com.br](https://viacep.com.br)                             |  
+
+
+## Ferramentas e Recursos
+
+| Recurso              | Tipo          | Link                                                                 |
+|----------------------|---------------|---------------------------------------------------------------------|
+| **ViaCEP API**       | API de Dados  | [viacep.com.br](https://viacep.com.br)                             |
+| **Freepik**          | Ilustrações   | [freepik.com](https://www.freepik.com)                             |
+| **Poppins**          | Tipografia    | [fonts.google.com](https://fonts.google.com/specimen/Poppins)      |
+
+---
 ## Contato
 - **GitHub:** [@EuLarissaGarcia](https://github.com/EuLarissaGarcia)
 - **LinkedIn:** [@eularissagarcia](https://www.linkedin.com/in/eularissagarcia)
 
-Este projeto foi criado com o objetivo de apresentar o portfólio de maneira visualmente atrativa e funcional. Qualquer sugestão ou contribuição são bem-vindas! 🚀
+
